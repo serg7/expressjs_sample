@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <% include partials/template/head.ejs %>
+</head>
+
+<body>
+    <% include partials/template/header.ejs %>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8">
+            <% include partials/content/speakers_list.ejs %>
+        </div><!-- primary -->
+        <aside class="col-sm-4">
+            <% include partials/content/artwotk_list.ejs  %>
+        </aside><!-- secondary -->
+    </div>
+</div><!-- container -->
+
+<% include partials/template/js_defauts.ejs %>
+
+</body>
+</html>
+

@@ -1,0 +1,18 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "description": "Files for building a website wit NodeJS and Express",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "nodemon -e css,ejs,js,json --watch app --ignore feedback.json"
+  },
+  "author": "Sergey Borsuk",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "reload": "^1.1.0",
+    "socket.io": "^1.7.2"
+  }
+}
